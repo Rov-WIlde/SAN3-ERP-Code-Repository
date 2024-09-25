@@ -18,7 +18,7 @@ This repository contains 5 separate Google Colab Notebooks. The first 4 notebook
 - imports datasets contained in 'UK_manifestos', processes them and combines them into a single dataframe ready for topic modelling.
 
 ### topic_modelling.py
-- handles topic modelling and produces two dataframes: 1) 'normalized_df' - contains normalised topic frequencies and 2) 'tm_results' - contains each sentences in the corpus along with topic, party and year labels.
+- handles topic modelling and produces two dataframes: 1) 'normalized_df' - contains normalised topic frequencies and 2) 'tm_results' - contains each sentence in the corpus along with topic, party and year labels.
 
 ### issue_salience.py
 - generates the normalised topic frequency graphs used to display issue-salience polarisation in figures 5,7 and 8.
