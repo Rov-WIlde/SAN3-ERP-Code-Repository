@@ -9,10 +9,10 @@ The pipeline used consists of two components:
 2)	Cosine dissimilarity – Politically-aware embeddings are used to calculate cosine dissimilarity between sentences of the same topic and election year across parties to measure issue-specific ideological polarisation.
 
 ## Environment Set-up
-This project was done exclusively in Google Collab, which uses an isolated cloud environment when executing code. Therefore, it does not retain installed packages across sessions, and so all required packages must be installed at the start of each Colab notebook.
+This project was done exclusively in Google Colab, which uses an isolated cloud environment when executing code. Therefore, it does not retain installed packages across sessions, and so all required packages must be installed at the start of each Colab notebook.
 
 ## Notebooks
-This repository contains 5 separate Google Collab Notebooks:
+This repository contains 5 separate Google Colab Notebooks. The first 4 notebooks each represent a stage of the pipeline.
 
 ### preprocessing.py
 - imports datasets contained in 'UK_manifestos', processes them and combines them into a single dataframe ready for topic modelling.
