@@ -12,7 +12,7 @@ The pipeline used consists of two components:
 This project was done exclusively in Google Colab, which uses an isolated cloud environment when executing code. Therefore, it does not retain installed packages across sessions, and so all required packages must be installed at the start of each Colab notebook.
 
 ## Notebooks
-This repository contains 5 separate Google Colab Notebooks. The first 4 notebooks each represent a stage of the pipeline, with the 5th running the full pipeline end-to-end.
+This repository contains five separate Google Colab Notebooks. The first four notebooks each represent a stage of the pipeline, with the fifth running the full pipeline end-to-end.
 
 ### preprocessing.py
 - imports datasets contained in 'UK_manifestos', processes them and combines them into a single dataframe ready for topic modelling.
