@@ -5,8 +5,8 @@
 This repository contains all of the code used to perform the analysis in the ERP "Towards a Natural Language Processing Pipeline for Measuring Types of Issue-specific Polarisation, using UK Party Manifestos". 
 
 The pipeline used consists of two components:
-1)	Topic Modelling – BERTopic is applied to a corpus of sentence-segmented manifestos to identify issues parties emphasise, resulting in topic-labelled sentences whose frequency is used to measure issue-salience polarisation.
-2)	Cosine dissimilarity – Politically-aware embeddings are used to calculate cosine dissimilarity between sentences of the same topic and election year across parties to measure issue-specific ideological polarisation.
+1)	**Topic Modelling** – BERTopic is applied to a corpus of sentence-segmented manifestos to identify issues parties emphasise, resulting in topic-labelled sentences whose frequency is used to measure issue-salience polarisation.
+2)	**Cosine dissimilarity** – Politically-aware embeddings are used to calculate cosine dissimilarity between sentences of the same topic and election year across parties to measure issue-specific ideological polarisation.
 
 ## Environment Set-up
 This project was done exclusively in Google Colab, which uses an isolated cloud environment when executing code. Therefore, it does not retain installed packages across sessions, and so all required packages must be installed at the start of each Colab notebook.
