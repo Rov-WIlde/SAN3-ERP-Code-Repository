@@ -11,6 +11,9 @@ The pipeline used consists of two components:
 ## Environment Set-up
 This project was done exclusively in Google Colab, which uses an isolated cloud environment when executing code. Therefore, it does not retain installed packages across sessions, and so all required packages must be installed at the start of each Colab notebook.
 
+## Dataset
+The exact corpus used in the ERP is contained within the folder 'UK_manifestos'. These manifestos are imported from the [Manifesto Research Project's (MRP) database](https://visuals.manifesto-project.wzb.eu/mpdb-shiny/cmp_dashboard_dataset/).There are two groups of manifestos: 1) manifestos that require sentence-segmentation using the spaCy Sentencizer - these are the .txt files and 2) manifestos pre-segmented into sentences by MRP annotators - these are the .csv files
+
 ## Notebook - main.ipynb
 This repository contains a single notebook that runs the full pipeline end-to-end using the manifestos included in the 'UK_manifestos' folder, and displays all of the figures present in the report so that results can be verified (note that the notebook must be open in Google Colab to view figure 3).
 
