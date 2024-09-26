@@ -14,19 +14,19 @@ This project was done exclusively in Google Colab, which uses an isolated cloud 
 ## Notebooks
 This repository contains five separate Google Colab Notebooks. The first four notebooks each represent a stage of the pipeline, with the fifth running the full pipeline end-to-end.
 
-### preprocessing.py
+### preprocessing.ipynb
 - imports datasets contained in 'UK_manifestos', processes them and combines them into a single dataframe ready for topic modelling.
 
-### topic_modelling.py
+### topic_modelling.ipynb
 - handles topic modelling and produces two dataframes: 1) 'normalized_df' - contains normalised topic frequencies and 2) 'tm_results' - contains each sentence in the corpus along with topic, party and year labels.
 
-### issue_salience.py
+### issue_salience.ipynb
 - generates the normalised topic frequency graphs used to display issue-salience polarisation in figures 5,7 and 8.
 
-### cosine_dissimilarity.py
+### cosine_dissimilarity.ipynb
 - generates the topic-specific cosine dissimilarity graphs used to measure ideological polarisation in figures 6,7,8 and 11.
 
-### main.py
+### main.ipynb
 - A final notebook that ties all of the previous scripts together to run the full pipeline end-to-end and displays all of the figures present in the report so that results can be verified (note that notebook must be open in Google Colab to view figure 3).
 
 
