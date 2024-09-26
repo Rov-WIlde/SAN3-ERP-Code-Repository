@@ -22,6 +22,7 @@ This repository contains a single notebook that runs the full pipeline end-to-en
 
 ### Stage 2 - Topic Modelling
 - handles topic modelling and produces two dataframes: 1) 'normalized_df' - contains normalised topic frequencies and 2) 'tm_results' - contains each sentence in the corpus along with topic, party and year labels.
+- This section generates the topic modelling results used to produce Table 2 in the ERP
 
 ### Stage 3 - Issue-salience Polarisation
 - generates the normalised topic frequency graphs used to display issue-salience polarisation in figures 5, 7 and 8.
