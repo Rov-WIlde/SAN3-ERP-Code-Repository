@@ -12,22 +12,23 @@ The pipeline used consists of two components:
 This project was done exclusively in Google Colab, which uses an isolated cloud environment when executing code. Therefore, it does not retain installed packages across sessions, and so all required packages must be installed at the start of each Colab notebook.
 
 ## Notebooks
-This repository contains five separate Google Colab Notebooks. The first four notebooks each represent a stage of the pipeline, with the fifth running the full pipeline end-to-end.
-
-### preprocessing.ipynb
-- imports datasets contained in 'UK_manifestos', processes them and combines them into a single dataframe ready for topic modelling.
-
-### topic_modelling.ipynb
-- handles topic modelling and produces two dataframes: 1) 'normalized_df' - contains normalised topic frequencies and 2) 'tm_results' - contains each sentence in the corpus along with topic, party and year labels.
-
-### issue_salience.ipynb
-- generates the normalised topic frequency graphs used to display issue-salience polarisation in figures 5,7 and 8.
-
-### cosine_dissimilarity.ipynb
-- generates the topic-specific cosine dissimilarity graphs used to measure ideological polarisation in figures 6,7,8 and 11.
+This repository contains a single notebook that runs the full pipeline end-to-end.
 
 ### main.ipynb
 - A final notebook that ties all of the previous scripts together to run the full pipeline end-to-end and displays all of the figures present in the report so that results can be verified (note that notebook must be open in Google Colab to view figure 3).
+
+#### Stage 1 - Importing and Pre-processing
+- imports datasets contained in 'UK_manifestos', processes them and combines them into a single dataframe ready for topic modelling.
+
+#### Stage 2 - Topic Modelling
+- handles topic modelling and produces two dataframes: 1) 'normalized_df' - contains normalised topic frequencies and 2) 'tm_results' - contains each sentence in the corpus along with topic, party and year labels.
+
+#### Stage 3 - Issue-salience Polarisation
+- generates the normalised topic frequency graphs used to display issue-salience polarisation in figures 5,7 and 8.
+
+#### Stage 4 - Issue Specific ideological Polarisation
+- generates the topic-specific cosine dissimilarity graphs used to measure ideological polarisation in figures 6,7,8 and 11.
+- generates the figure 9 graph that displays the cosine dissimilarity for Immigration between different embeddings types and the specific sentence examples used in figure 10.
 
 
 ## Reproducibility
