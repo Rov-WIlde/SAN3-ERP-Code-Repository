@@ -11,8 +11,8 @@ The pipeline used consists of two components:
 ## Environment Set-up
 This project was done exclusively in Google Colab, which uses an isolated cloud environment when executing code. Therefore, it does not retain installed packages across sessions, and so all required packages must be installed at the start of each Colab notebook.
 
-## Notebooks - main.ipynb
-This repository contains a single notebook that runs the full pipeline end-to-end and displays all of the figures present in the report so that results can be verified (note that notebook must be open in Google Colab to view figure 3).
+## Notebook - main.ipynb
+This repository contains a single notebook that runs the full pipeline end-to-end and displays all of the figures present in the report so that results can be verified (note that the notebook must be open in Google Colab to view figure 3).
 
 ### Stage 1 - Importing and Pre-processing
 - imports datasets contained in 'UK_manifestos', processes them and combines them into a single dataframe ready for topic modelling.
