@@ -21,10 +21,10 @@ This repository contains a single notebook that runs the full pipeline end-to-en
 - handles topic modelling and produces two dataframes: 1) 'normalized_df' - contains normalised topic frequencies and 2) 'tm_results' - contains each sentence in the corpus along with topic, party and year labels.
 
 ### Stage 3 - Issue-salience Polarisation
-- generates the normalised topic frequency graphs used to display issue-salience polarisation in figures 5,7 and 8.
+- generates the normalised topic frequency graphs used to display issue-salience polarisation in figures 5, 7 and 8.
 
 ### Stage 4 - Issue Specific ideological Polarisation
-- generates the topic-specific cosine dissimilarity graphs used to measure ideological polarisation in figures 6,7,8 and 11.
+- generates the topic-specific cosine dissimilarity graphs used to measure ideological polarisation in figures 6, 7, 8 and 11.
 - generates the figure 9 graph that displays the cosine dissimilarity for Immigration between different embeddings types and the specific sentence examples used in figure 10.
 
 
