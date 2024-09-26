@@ -17,6 +17,9 @@ The exact corpus used in the ERP is contained within the folder 'UK_manifestos'.
 ## Notebook - main.ipynb
 This repository contains a single notebook that runs the full pipeline end-to-end using the manifestos included in the 'UK_manifestos' folder, and displays all of the figures present in the report so that results can be verified (note that the notebook must be open in Google Colab to view figure 3).
 
+An important clarification is that the notebook imports the manifestos from the users Google Drive, and thus the manifestos must be uploaded into the users Google Drive, and the file pathways present in Stage 1 adjusted accordingly.
+
+
 ### Stage 1 - Importing and Pre-processing
 - imports datasets contained in 'UK_manifestos', processes them and combines them into a single dataframe ready for topic modelling.
 
