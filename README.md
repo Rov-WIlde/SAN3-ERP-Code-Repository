@@ -27,7 +27,7 @@ This repository contains five separate Google Colab Notebooks. The first four no
 - generates the topic-specific cosine dissimilarity graphs used to measure ideological polarisation in figures 6,7,8 and 11.
 
 ### main.py
-- A final notebook that ties all of the previous scripts together to run the full pipeline end-to-end and displays all of the figures present in the report so that results can be verified.
+- A final notebook that ties all of the previous scripts together to run the full pipeline end-to-end and displays all of the figures present in the report so that results can be verified (note that notebook must be open in Google Colab to view figure 3).
 
 
 ## Reproducibility
